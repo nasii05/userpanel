@@ -14,7 +14,7 @@ body{
     flex-direction: row;
 }
 .one{
-    /* overflow: scroll; */
+    overflow: scroll;
     overflow-x: hidden;
     height: 820px;
     width: 50%;

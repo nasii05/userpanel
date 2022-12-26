@@ -132,7 +132,7 @@ let profilepic = document.createElement('img')
 profilepic.id="profile"
 profilepic.src=user.profile
 let h1 = document.createElement('h1')
-h1.id="proname"
+h1.id="proname" 
 h1.innerText=user.firstName
 imagediv.appendChild(profilepic)
 btn.id="button"
