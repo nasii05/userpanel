@@ -122,6 +122,18 @@ const users = [{
     email: "Eric@chron.com",
     photo:"./images/img12.jfif"
 },
+{
+    profile:"./images/img1.jfif",
+    id: 11,
+    firstName: "Cristopher",
+    lastName: "alex",
+    maidenName: "Chris",
+    age: 50,
+    gender: "male",
+    email: "atuny0@sohu.com",
+    photo:"./images/img1.jfif"
+
+}
 ]
 
 users.map((user)=>{
@@ -132,7 +144,7 @@ let profilepic = document.createElement('img')
 profilepic.id="profile"
 profilepic.src=user.profile
 let h1 = document.createElement('h1')
-h1.id="proname" 
+h1.id="proname"
 h1.innerText=user.firstName
 imagediv.appendChild(profilepic)
 btn.id="button"
